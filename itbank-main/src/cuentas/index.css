@@ -1,0 +1,141 @@
+.accountCard{
+    margin: 3%;
+    width: 50%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    gap: 10px;
+    text-align: center;
+    background-color: rgba(0, 68, 255, 0.808);
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+    border-radius: 3%;
+    -webkit-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.53);
+    -moz-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.53);
+    box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.53);
+}
+.accountsSection{
+    display: flex;
+}
+.accountCardText{
+    width: 50%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.accountCardText a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+.accountCardText h2{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 20px;
+    margin-right: 5%;
+
+}
+.contentCuentas{
+    width: 150vh;
+    margin: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    background-color: rgba(128, 128, 128, 0.1);
+    border-radius: 1%;
+    align-items: center;
+}
+.mainContent{
+    padding: 100px 200px;
+    display: flex;
+    align-items: center ;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mainContent h2{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 20px;
+    margin-right: 5%;
+}
+.cuentasText{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-block: 30px;
+}
+
+.mainContent input{
+    width: 110px;
+    margin-left: 40rem;
+    width: 220px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.botones{
+    display: inline-block;
+}
+.botonMovimientos input{
+    margin-left: 34rem;
+}
+.botonResumen input{
+    margin-top: 5px;
+    margin-left: 34rem;
+}
+
+@media(max-width: 993px){
+    .contentCuentas{
+        transform: translateX(-25vh);
+        padding: 20px;
+        max-width: 550px;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    .accountsSection{
+        padding: 20px;
+        max-width: 550px;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    .accountCard{
+        width: 100%;
+    }
+    .accountCardText{
+        width: 100%;
+    }
+    .mainContent input{
+        text-align: center;
+        width: 100%;
+        transform: translateX(-210%)
+    }
+    .cuentasText{
+        transform: translateX(-31%)
+    }
+    .botonMovimientos input{
+        align-items: center;
+        margin-left: 44rem;
+    }
+    .botonResumen input{
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 44rem;
+    }
+}

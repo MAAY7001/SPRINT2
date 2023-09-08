@@ -1,0 +1,109 @@
+
+.containerPrestamos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.account-card {
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+    border: 1px solid black;
+    background-color: rgba(128, 128, 128, 0.24);
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 1.563em;
+    text-align: center;
+    padding: 1rem;
+    -webkit-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.53);
+    -moz-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.53);
+    box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.53);
+
+}
+.account-card p{
+    text-align: center;
+}
+
+#h1{
+    color: black;
+}
+
+#h2{
+    color: black;
+}
+
+#total{
+    font-size: 1em;
+    font-weight: 250;
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+label{
+    font-size: 1em;
+    font-weight: 250;
+}
+
+.main-content {
+    padding: 6.25em 12.5em;
+    display: flex;
+    align-items: center;
+}
+
+#conversor {
+    width: 30;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    padding: 0 1.25em;
+    margin-top: 6.25em;
+    margin: 10%;
+    border: 0.125em solid black;
+    background-color: rgba(128, 128, 128, 0.87);
+}
+
+#transf-img {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+#botonCalculo {
+    border-radius: 0.625em;
+    width: 18.75em;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#monto-prestamo {
+    border-radius: 0.5em;
+    margin-top: 1%;
+}
+
+#tasa {
+    border-radius: 0.5em;
+    margin-top: 1%;
+}
+
+#plazo-prestamo {
+    border-radius:0.5em;
+    width: 10%;
+    margin-top: 1%;
+}
+@media(max-width: 60.625em){
+    .containerTransferencias{
+        flex-direction: column;
+    }
+    #containerTransferenciasImg{
+        width: 100%;
+        margin-top: 3.125em;
+    }
+    .account-card{
+        width: 80%;
+        margin: 10%;
+    }
+}
